@@ -21,7 +21,7 @@
               <!-- todo Header -->
               <v-col>
                 <div class="toto_title">
-                  Set Your Task for day
+                  Set Your Task for Today
                 </div>
               </v-col>
             </v-row>
