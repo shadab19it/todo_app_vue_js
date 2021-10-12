@@ -62,7 +62,7 @@
       <v-dialog v-model="userInputDialog" persistent max-width="500px">
         <v-card>
           <v-card-title>
-            <span>Hi, Enter you Name and Set Today Task</span>
+            <span>Hi, Enter your Name and Set Today Task</span>
           </v-card-title>
           <v-card-text>
             <v-text-field v-model="inputField" placeholder="Enter Your Name" label="Enter Your Name"></v-text-field>
