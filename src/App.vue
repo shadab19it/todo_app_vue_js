@@ -67,9 +67,9 @@
           <v-card-text>
             <v-text-field v-model="inputField" placeholder="Enter Your Name" label="Enter Your Name"></v-text-field>
           </v-card-text>
-          <v-card-actions>
+          <v-card-actions class="submit_btn">
             <v-btn color="primary" text @click="closeDialog">
-              Enter
+              Submit
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -139,6 +139,10 @@
 
   .add_btn {
     margin-top: 5px;
+  }
+  .submit_btn {
+    justify-content: flex-end;
+    text-transform: capitalize;
   }
 
   .todo_container {
